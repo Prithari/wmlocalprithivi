@@ -185,9 +185,25 @@ button {
 
 /* links */
 a:any-link {
-  color: var(--link-color);
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  margin: 12px 0;
+  border-radius: 2px;
+  padding: 0.5em 1.2em;
+  font-family: var(--body-font-family);
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
   text-decoration: none;
-  word-break: break-word;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: var(--white);
+  color: var(--blue-675);
 }
 
 a:hover {
@@ -215,6 +231,19 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+a.any-link:hover {
+  background-color: var(--blue-50);
+  color: var(--blue-675);
+}
+
+a.any-link:focus {
+  background-color: var(--blue-50);
+  color: var(--blue-675);
+  outline: 3px solid var(--orange-450);
+  outline-style: dashed;
+  outline-offset: 2px;
 }
 
 a.button:hover,
