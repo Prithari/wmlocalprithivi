@@ -197,7 +197,7 @@ a:any-link {
   font-weight: 500;
   line-height: 1.25;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
