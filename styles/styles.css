@@ -210,8 +210,8 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--primary-675);
-  color: var(--white);
+  /* background-color: var(--primary-675);
+  color: var(--white); */
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -232,8 +232,8 @@ button:disabled:hover {
   cursor: unset;
 }
 
-a.button.Primary,
-button.Primary {
+a.button.primary,
+button.primary {
   background-color: red;
   border: 2px solid currentcolor;
   color: blue;
