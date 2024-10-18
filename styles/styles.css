@@ -261,8 +261,8 @@ button.secondary {
 
 a.button.secondary:hover,
 button.secondary:hover {
-  background-color: var(--white);
-  border: 2px solid var(--blue-50);
+  background-color: var(--blue-50);
+  border: 2px solid var(--blue-675);
   color: var(--blue-675);
 }
 
