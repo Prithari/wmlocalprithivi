@@ -160,6 +160,22 @@ h4{
   line-height: 21px;
 }
 
+@media only screen and (max-width: 480px) {
+  h1{
+    font-family: var(--heading-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  
+  h2{
+    font-family: var(--heading-font-family);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+}
+
 h5,
 h6 {
   margin-top: 0.8em;
