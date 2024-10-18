@@ -250,6 +250,7 @@ button.primary:focus {
   color: var(--white);
   outline: 3px solid var(--orange-450);
   outline-style: dashed;
+  outline-offset: 2px;
 }
 
 a.button.secondary,
@@ -268,11 +269,18 @@ button.secondary:hover {
 
 a.button.secondary:focus,
 button.secondary:focus {
-  background-color: var(--white);
-  border: 2px solid var(--blue-50);
+  background-color: var(--blue-50);
+  border: 2px solid var(--blue-675);
   color: var(--blue-675);
   outline: 3px solid var(--orange-450);
   outline-style: dashed;
+  outline-offset: 2px;
+}
+
+a.button.tertiary,
+button.tertiary {
+  color: var(--blue-675);
+  text-decoration: underline;
 }
 
 main img {
