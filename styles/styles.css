@@ -201,7 +201,7 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  /* border-radius: 2.4em; */
+  border-radius: 2px;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
@@ -231,9 +231,14 @@ button:disabled:hover {
   cursor: unset;
 }
 
+a.button.primary:hover,
+button.primary:hover {
+  background-color: var(--primary-775);
+  color: var(--white);
+}
+
 a.button.primary,
 button.primary {
-  border-radius: 2px;
   background-color: var(--primary-675);
   color: var(--white);
 }
