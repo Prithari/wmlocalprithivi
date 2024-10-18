@@ -227,7 +227,8 @@ button:focus {
 
 button:disabled,
 button:disabled:hover {
-  background-color: var(--light-color);
+  background-color: var(--gray-100);
+  color: var(--gray-700);
   cursor: unset;
 }
 
