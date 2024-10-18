@@ -206,6 +206,20 @@ a:any-link {
   color: var(--blue-675);
 }
 
+a:any-link:hover {
+  background-color: var(--blue-50);
+  color: var(--blue-675);
+}
+
+a:any-link:focus {
+  background-color: var(--blue-50);
+  color: var(--blue-675);
+  outline: 3px solid var(--orange-450);
+  outline-style: dashed;
+  outline-offset: 2px;
+}
+
+
 a:hover {
   color: var(--link-hover-color);
   text-decoration: underline;
@@ -231,19 +245,6 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-a.any-link:hover {
-  background-color: var(--blue-50);
-  color: var(--blue-675);
-}
-
-a.any-link:focus {
-  background-color: var(--blue-50);
-  color: var(--blue-675);
-  outline: 3px solid var(--orange-450);
-  outline-style: dashed;
-  outline-offset: 2px;
 }
 
 a.button:hover,
